@@ -1,0 +1,54 @@
+    body{
+        background-color: lightblue;
+        margin: 50px;
+        
+    }
+    h1{
+        font-size: 50px;
+        font-family: "trebuchet MS";
+        /*text-align: left;*/
+    }
+    h2{
+        font-size: 30px;
+        font-family: "arial";   
+    }
+    p{
+        font-family: "trebuchet MS";
+        color: blue;
+        font-size: 15px;
+    }
+    ol{
+        font-family: "trebuchet MS";
+        color: dimgrey;
+    }
+
+li {
+    color: darkblue;
+}
+
+    hr{
+        width: 75%;
+        border: 1px solid red;
+        justify-items: center;
+
+    }
+
+/*img {
+    padding: 20px;
+}*/
+
+div{
+    display: block;
+}
+
+a:visited{
+    color:mediumpurple;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}

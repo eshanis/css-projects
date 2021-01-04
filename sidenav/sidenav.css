@@ -1,0 +1,386 @@
+body {
+    /*background-color: antiquewhite;*/
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    /*background-image: url("background.gif");*/
+    
+}
+
+#topofpage {
+  background-color: palevioletred; /* For browsers that do not support gradients */
+  background-image: linear-gradient(lightyellow, palevioletred);
+}
+
+header {
+    background-color: cadetblue;
+    /*text-align: center*/
+    height: 150px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+#logo {
+    border-radius: 50%;
+    float: left;
+    height: 100px;
+    width: 110px;
+    padding-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    /* line-height: 200%;*/
+    padding-top: 45px;
+    padding-left: 100px;
+    font-size: 4em;
+    text-align: center;
+    display: inline;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px darkgrey;
+}
+
+h2 {
+    /* line-height: 200%;*/
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 1.5em;
+}
+
+h3 {
+    /* line-height: 200%;*/
+    /*padding-top: 5px;*/
+    padding-left: 30px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+h4 {
+    padding-left: 300px;
+    color: whitesmoke;
+    font-size: 1.15em;
+}
+
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 200px;
+    position: sticky;
+    top: 0;
+}
+
+/* unvisited link*/
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: darkred;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+}
+
+nav ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+nav li{
+margin: 10px 0;
+}
+
+
+main {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+    background-color: #FBE8A6;
+}
+
+main h2,p,ul {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.card {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    background-color: lightskyblue;
+    margin-left: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    margin-left: 90px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+footer {
+    background-color: cadetblue;
+    font-size: .80em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #221811;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FEF6C2;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 10px #888888;
+    background-color: lightsalmon;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+img {
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+    float: right;
+    width: 150px;
+    height: 140px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#maindessert {
+    background-image: url("images/maindessert.jpg");
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#desktop {
+    display: inline;
+
+    /*
+#mobile {
+    display: none;
+}*/
+
+    /*h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding-bottom: 0px;
+    clear: left;
+}*/
+
+    /*main h4 {
+    text-transform: uppercase;
+    border-bottom: 5px solid black;
+    padding-bottom: 0;
+    float: left;
+}*/
+
+    /*#address {
+  padding-left: 3em;  
+}*/
+
+
+    /*.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}*/
+
+    /*
+
+#heromugs {
+  background-image: url("heromugs.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;    
+}
+
+#heroguitar {
+  background-image: url("heroguitar.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;    
+}
+*/
+    /*
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+*/
+    /*
+header, nav, main, footer {
+    display: block;
+}*/
+    /*
+@media only screen and (max-width:1024px){
+    body {
+        margin: 0px;
+        background-image: none;
+    }
+    
+    wrapper {
+        width: auto;
+        min-width: 0px;
+        margin: 0px;
+        padding: 0px;
+        box-shadow: none;
+    }
+    
+    header {
+        border-bottom-color: #FEF6C2;
+        border-bottom-style: solid;
+    }
+    
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+    
+    nav {
+        float: none;
+        width: auto;
+        padding-top: 0px;
+        margin: 10px;
+        font-size: 1.3em;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav a {
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+    }
+    
+    nav ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #heroroad {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+     #heromugs {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+     #heroguitar {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    main {
+        margin: 0px;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        background-image: url(javajammini.jpg);
+        height: 128px;
+    }
+    
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-left: 0px;
+    }
+    
+    nav {
+        margin: 0px;
+    }
+    
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px;
+        border-bottom-color: #FEF6C2;
+    }
+    
+    nav li {
+        display: block;
+    }
+    
+    main {
+        padding-top: 1px;
+    }
+    
+    h2 {
+        padding-top: 0.5em;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    
+    details {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    heroroad {
+        background-image: none;
+        height: auto;
+    }
+     heromugs {
+        background-image: none;
+        height: auto;
+    }
+     heroguitar {
+        background-image: none;
+        height: auto;
+    }
+    
+    floatleft {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    #mobile {display: inline;}
+    #desktop {display: none;}
+}*/
